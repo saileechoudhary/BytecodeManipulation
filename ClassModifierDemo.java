@@ -85,12 +85,7 @@ public class ClassModifierDemo {
            
         }
         
-       // @Override
-	    //public MethodVisitor visitMethod(int access, String name, String desc, String signature, String[] exceptions) {
-	      //  MethodVisitor methodVisitor = cv.visitMethod(access, name+"_new", desc, signature, exceptions);         
-	        //return methodVisitor;
-	    //}
-        
+           
         
     }
     
@@ -101,13 +96,8 @@ public class ClassModifierDemo {
   	System.out.println("you need to pass argument <.class file>");
         }
         String fileName = args[0];
-        //String new1="abc";
-		//String dir =args[1];
-        //String dir = fileName;
-       // String dir = null;
-        
-        //new File(dir).mkdir();
-        
+               
+               
         String outputFileName = "modified_" + fileName;
        
         System.out.println(fileName);
