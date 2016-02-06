@@ -41,9 +41,6 @@ import java.util.regex.Pattern;
 
 public class HmmTestingSailee
 {
-//initHmm = readHmm("C:\\Users\\Ashwin\\Dropbox\\Project\\smoothing\\smoothed_temp");
-
-	
 	public static Hmm readHmm(String fileName) throws FileNotFoundException, IOException, FileFormatException {
         FileReader fr = new FileReader(fileName);
         OpdfIntegerReader oir = new OpdfIntegerReader();
@@ -56,7 +53,7 @@ public class HmmTestingSailee
             throw e;
            }
         return model;
-    }
+}
 	
 	
 	public static void main(String[] args) throws FileNotFoundException, IOException, FileFormatException {
